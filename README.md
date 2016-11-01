@@ -1,4 +1,4 @@
 # TIL (Today I Learned)
-## TensorFlow
+## 임베디드 개발자의 TensorFlow 학습하기
 
-  * [Learning Objectives](tensorflow/LO.md)
+  * [Summary](tensorflow/LO.md)
