@@ -1,4 +1,4 @@
 # TIL (Today I Learned)
 ## TensorFlow
 
-  * Learning Objectives
+  * [Learning Objectives](tensorflow/LO.md)
