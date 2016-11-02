@@ -1,5 +1,5 @@
 # Summary
 
-* [소개](README.md)
-* [머리말](tensorflow/LO.md)
+* [머리말](README.md)
+* [소개](tensorflow/LO.md)
 
