@@ -1,4 +1,4 @@
-# TIL (Today I Learned)
+# ML (Machine Learning)
 ### 임베디드 개발자의 TensorFlow 학습하기
 
   * 깃북을 통해 더 쉽게 볼 수 있습니다.
