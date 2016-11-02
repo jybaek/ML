@@ -1,13 +1,13 @@
 # Summary
 ### 목표
 
-  * Low-level language 임베디드 개발자도 python을 학습하고 TensorFlow를 쉽게 조작할 수 있다는 것을 증명
+  * 평범한 Low-level language 임베디드 개발자도 python을 학습하고 TensorFlow를 쉽게 조작할 수 있다는 것을 증명
   * TensorFlow를 전혀 모르는 시각으로 출발하는 정리의 시간
 
-### TensorFlow 동영상 학습
+### 학습 과정
 
-  * 서주영님께서 [페이스북 그룹 TensorFlow KR](https://www.facebook.com/groups/TensorFlowKR)에 공유해 주신 [동영상 리스트](https://www.facebook.com/groups/TensorFlowKR/permalink/369723446702053/)를 기반으로 학습
-  * 동영상 순서는 무관하게 학습 진행
+  * 서주영님께서 [페이스북 그룹 TensorFlow KR](https://www.facebook.com/groups/TensorFlowKR)에 공유해 주신 [강의 리스트](https://www.facebook.com/groups/TensorFlowKR/permalink/369723446702053/)를 기반으로 학습
+  * 강의 순서는 무관하게 학습 진행
 
 ### 학습 기록
 
