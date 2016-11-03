@@ -1,8 +1,5 @@
 # ML (Machine Learning)
-### 임베디드 개발자의 TensorFlow 학습하기
-
-  * 깃북을 통해 더 쉽게 볼 수 있습니다.
-  * 깃북의 주소는 https://jybaek.gitbooks.io/ml/content 입니다.
+## 임베디드 개발자의 TensorFlow 학습하기
 
 ### 목표
 
@@ -18,3 +15,8 @@
 
   * 학습한 내용을 토대로 용어 정의와 기술 정의 (초반에 내린 정의는 학습을 진행하면서 계속 업데이트)
   * 필요한 내용은 출처를 명시하고 화면 캡쳐를 제공
+
+### 깃북 제공
+
+  * 깃북을 통해 더 쉽게 볼 수 있습니다.
+  * 깃북의 주소는 https://jybaek.gitbooks.io/ml/content 입니다.
