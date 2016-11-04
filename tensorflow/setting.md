@@ -6,8 +6,8 @@
 #### 필요한 도구 설치
 
 ```bash
-yum install -y epel-release
-yum install -y python-pip python-dev python-virtualenv
+$ yum install -y epel-release
+$ yum install -y python-pip python-dev python-virtualenv
 ```
 
 
