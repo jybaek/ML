@@ -9,7 +9,7 @@
 ### 학습 과정
 
   * 서주영님께서 [페이스북 그룹 TensorFlow KR](https://www.facebook.com/groups/TensorFlowKR)에 공유해 주신 [강의 리스트](https://www.facebook.com/groups/TensorFlowKR/permalink/369723446702053/)를 기반으로 학습
-  * 강의 순서는 무관하게 학습 진행
+  * [텐서플로우 코리아](https://tensorflowkorea.wordpress.com/) 에서 많은 정보 습득
 
 ### 학습 기록
 
@@ -18,6 +18,6 @@
 
 ### 깃북 제공
 
-  * 깃북을 통해 더 쉽게 볼 수 있습니다.
+  * 학습한 내용은 깃북을 통해 더 쉽게 볼 수 있습니다.
   * 깃북의 주소는 https://jybaek.gitbooks.io/ml/content 입니다.
   * 문서에 잘못된 점은 지적해주시면 감사하겠습니다.
