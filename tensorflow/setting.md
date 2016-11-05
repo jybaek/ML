@@ -10,6 +10,7 @@ $ yum install -y epel-release
 $ yum install -y python-pip python-dev
 $ pip install jupyter
 ```
+prompt에서 바로 실습해도 상관없고 .py로 실습해도 상관없지만 여기서는 jupyter를 사용합니다. 
 
 #### TensorFlow 바이너리 선택
 ```bash
