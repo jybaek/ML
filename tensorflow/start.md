@@ -20,3 +20,16 @@
 > 출처:[tensorflowkorea](https://tensorflowkorea.wordpress.com/2016/05/21/%EB%94%A5%EB%9F%AC%EB%8B%9D-%ED%8C%A8%ED%82%A4%EC%A7%80-%EB%B9%84%EA%B5%90/)
 
 후에 나머지도 천천히 실펴보도록 합니다. 
+
+#### TensorFlow 간단한 실습
+실습은 python prompt를 이용해도 되고, vim을 사용해도 됩니다. 하지만 여기서는 jupyter notebook을 사용했습니다. 일단 앞서 학습준비 과정에서 사용된 코드를 다시 실습해봅시다.
+
+```python
+>>> import tensorflow as tf
+```
+위 문장의 의미는 C나 C++ 개념으로 살펴보면 tensorflow라고 하는 library를 가져오는 개념입니다. include보다는 -l을 사용해서 library에 있는 함수나 정의를 사용할 수 있도록 선언했다고 보면 맞을 것 같습니다. 뒤에 as는 앞으로 그 library를 사용할 때 tf라는 별칭을 사용하겠다는 의미입니다.
+
+```python
+>>> hello = tf.constant('Hello, TensorFlow!')
+```
+tensorflow는 여러 가지 메소드를 갖고있고 앞으로 그 메소드를 사용하며 다양한 실습을 진행할텐데 그 중 타입 선언을 하는 구문 중 하나인 constant 입니다. 일반적인 C/C++의 const 처럼 한번 선언되면 변경할 수 없다는 특징을 갖습니다.
