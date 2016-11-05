@@ -10,7 +10,7 @@ vectors_set = []
 
 for i in xrange(num_points):
     x1 = np.random.normal(0.0, 0.55)
-    y1 = x1 * 0.1 + 0.3 + np.random.normal(0.0, 0.03)
+    y1 = x1 * 0.1 + 0.3 + np.random.normal(0.0, 0.03) # np.random.normal() = 정규분포
     vectors_set.append([x1, y1])
 
 x_data = [v[0] for v in vectors_set]
@@ -32,7 +32,7 @@ plt.show()
 ## [텐서플로 첫걸음] 2.2 비용함수와 경사 하강법 알고리즘
 
 ```python
-# 2.1 예제 이후에 이어서 지는 내용입니다.
+# 2.1 예제 이후에 이어지는 내용입니다.
 import tensorflow as tf
 
 W = tf.Variable(tf.random_uniform([1], -1.0, 1.0))
