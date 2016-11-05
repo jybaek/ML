@@ -29,6 +29,8 @@
 ## N
 ## O
 ## P
+### placeholder (플레이스홀더)
+프로그램 실행 중에 데이터를 변경하기 위해서 사용하는 '심벌림' 변수.
 ## Q
 ## R
 ### RNN (Recurrent Neural Network, 순환 신경망)
