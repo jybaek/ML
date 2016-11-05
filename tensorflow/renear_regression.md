@@ -23,7 +23,50 @@ plt.plot(x_data, y_data, 'ro')
 plt.legend()
 plt.show()
 ```
+
 #### 데이터를 그림으로 표현
 <div style="width:50%; margin:auto; margin-bottom:10px; margin-top:20px;">
 <img style="width:100%" src="../images/renear_regression.png">
+</div>
+
+### [텐서플로 첫걸음] 2.2 비용함수와 경사 하강법 알고리즘
+
+```python
+# 2.1 예제 이후에 이어서 지는 내용입니다.
+import tensorflow as tf
+
+W = tf.Variable(tf.random_uniform([1], -1.0, 1.0))
+b = tf.Variable(tf.zeros([1]))
+y = W * x_data + b
+
+loss = tf.reduce_mean(tf.square(y - y_data))
+
+optimizer = tf.train.GradientDescentOptimizer(0.5)
+train = optimizer.minimize(loss)
+
+init = tf.initialize_all_variables()
+
+sess = tf.Session()
+sess.run(init)
+
+for step in xrange(8):
+    sess.run(train)   
+    print sess.run(W), sess.run(b)
+
+'''
+print 결과 
+[ 0.13282794] [ 0.30009764]
+[ 0.12321223] [ 0.29985777]
+[ 0.11645306] [ 0.29973677]
+[ 0.11170244] [ 0.29965174]
+[ 0.10836352] [ 0.29959196]
+[ 0.10601678] [ 0.29954997]
+[ 0.10436741] [ 0.29952043]
+[ 0.10320815] [ 0.29949969]
+'''
+```
+
+#### 데이터를 그림으로 표현
+<div style="width:50%; margin:auto; margin-bottom:10px; margin-top:20px;">
+<img style="width:100%" src="../images/renear_regression2.png">
 </div>
