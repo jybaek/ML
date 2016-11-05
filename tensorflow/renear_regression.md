@@ -1,6 +1,6 @@
 # 선형회귀분석(renear regression)
 
-### [텐서플로 첫걸음] 2.1 변수 간의 관계에 대한 모델
+## [텐서플로 첫걸음] 2.1 변수 간의 관계에 대한 모델
 
 ```python
 import numpy as np
@@ -15,21 +15,21 @@ for i in xrange(num_points):
 
 x_data = [v[0] for v in vectors_set]
 y_data = [v[1] for v in vectors_set]
+```
 
-# 데이터를 그림으로 표현
+### 데이터를 그림으로 표현
+```python
 import matplotlib.pyplot as plt # needs "pip install matplotlib"
 
 plt.plot(x_data, y_data, 'ro')
 plt.legend()
 plt.show()
 ```
-
-#### 데이터를 그림으로 표현
 <div style="width:50%; margin:auto; margin-bottom:10px; margin-top:20px;">
 <img style="width:100%" src="../images/renear_regression.png">
 </div>
 
-### [텐서플로 첫걸음] 2.2 비용함수와 경사 하강법 알고리즘
+## [텐서플로 첫걸음] 2.2 비용함수와 경사 하강법 알고리즘
 
 ```python
 # 2.1 예제 이후에 이어서 지는 내용입니다.
@@ -66,7 +66,15 @@ print 결과
 '''
 ```
 
-#### 데이터를 그림으로 표현
+### 데이터를 그림으로 표현
+```python
+plt.plot(x_data, y_data, 'ro')
+plt.plot(x_data, sess.run(W) * x_data + sess.run(b))
+plt.legend()
+plt.xlabel('x')
+plt.ylabel('y')
+plt.show()
+```
 <div style="width:50%; margin:auto; margin-bottom:10px; margin-top:20px;">
 <img style="width:100%" src="../images/renear_regression2.png">
 </div>
