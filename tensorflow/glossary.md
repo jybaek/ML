@@ -13,7 +13,7 @@
 심층 신경망(Deep Neural Network, DNN)은 입력층(input layer)과 출력층(output layer) 사이에 여러 개의 은닉층(hidden layer)들로 이뤄진 [인공신경망](https://ko.wikipedia.org/wiki/%EC%9D%B8%EA%B3%B5%EC%8B%A0%EA%B2%BD%EB%A7%9D)(Artificial Neural Network, ANN)이다. 심층 신경망은 일반적인 인공신경망과 마찬가지로 복잡한 [비선형](https://ko.wikipedia.org/wiki/%EB%B9%84%EC%84%A0%ED%98%95) 관계(non-linear relationship)들을 [모델링](https://ko.wikipedia.org/wiki/%EB%AA%A8%EB%8D%B8)할 수 있다. 예를 들어, 사물 식별 모델을 위한 심층 신경망 구조에서는 각 객체가 이미지 기본 요소들의 계층적 구성으로 표현될 수 있다.[18] 이때, 추가 계층들은 점진적으로 모여진 하위 계층들의 특징들을 규합시킬 수 있다. 심층 신경망의 이러한 특징은, 비슷하게 수행된 인공신경망에 비해 더 적은 수의 유닛(unit, node)들 만으로도 복잡한 데이터를 모델링할 수 있게 해준다. (출처:위키피디아)
 ## E
 ### error function (오차함수)
-선형회귀 방정식에서 weight과 bias를 수정하면서 결과를 얻는데, 반복될 때 얼마나 개선되고 있는지에 대한 측정하는 것
+선형회귀 방정식에서 weight과 bias를 수정하면서 결과를 얻는데, 반복될 때 얼마나 개선되고 있는지에 대한 측정하는 것 (텐서플로 첫걸음)
 ## F
 ## G
 ### gradient descent (경하 하강법)
@@ -37,6 +37,8 @@
 ### Sigmoid (시그모이드)
 ### Softmax (소프트맥스)
 ## T
+### Tensor (텐서)
+동적 크기를 갖는 다차원 데이터 배열로 볼 수 있으며 불리언이나 문자열, 여러 종류의 숫자 같은 정적 자료형을 가지는 텐서플로우의 기본 자료구조 (텐서플로 첫걸음)
 ### TensorFlow (텐서플로우)
 텐서플로우(TensorFlow) 는 구글 제품에 사용되는 머신러닝(기계학습)을 위한 오픈소스 소프트웨어 라이브러리입니다.
 ## U
