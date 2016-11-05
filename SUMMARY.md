@@ -6,5 +6,6 @@
   * ["hello tensorflow" 예제](tensorflow/hello_tensorflow.md)
 * [머신러닝 분류](tensorflow/classification.md)
   * 지도 학습
+    * [선형회귀분석(renear regression)](tensorflow/renear_regression.md)
   * 비지도 학습
 * [용어집](tensorflow/glossary.md)
