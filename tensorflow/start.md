@@ -12,7 +12,7 @@
 > 출처:[tensorflowkorea](https://tensorflowkorea.wordpress.com/%ED%95%B4%EC%BB%A4%EC%97%90%EA%B2%8C-%EC%A0%84%ED%95%B4%EB%93%A4%EC%9D%80-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-1/)
 
 #### 딥러닝 종류 
-머신러닝과 딥러닝에 대한 이야기는 인터넷에 너무나 많으므로 굳이 설명할 필요가 없습니다. 또한 그 기술을 다루는 라이브러리는 상당히 다양한데 여기서는 TensorFlow를 다루도록 합니다.
+머신러닝과 딥러닝에 대한 이야기는 인터넷에 너무나 많으므로 굳이 설명할 필요가 없습니다. 또한 그 기술을 다루는 라이브러리는 상당히 다양한데 여기서는 TensorFlow를 다루도록 합니다. 굳이 TensorFlow인 이유는 github에서 가장 핫한 머신러닝 프로젝트이기도 하고.. 역시 구글 이기 때문입니다. 
 
 ![jpeg](https://tensorflowkorea.files.wordpress.com/2016/05/comparison_of_deep_learning_package.png)
 > 출처:[tensorflowkorea](https://tensorflowkorea.wordpress.com/2016/05/21/%EB%94%A5%EB%9F%AC%EB%8B%9D-%ED%8C%A8%ED%82%A4%EC%A7%80-%EB%B9%84%EA%B5%90/)
