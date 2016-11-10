@@ -18,3 +18,5 @@
 
 ![jpeg](https://tensorflowkorea.files.wordpress.com/2016/05/comparison_of_deep_learning_package.png)
 > 출처:[tensorflowkorea](https://tensorflowkorea.wordpress.com/2016/05/21/%EB%94%A5%EB%9F%AC%EB%8B%9D-%ED%8C%A8%ED%82%A4%EC%A7%80-%EB%B9%84%EA%B5%90/)
+
+후에 나머지도 천천히 실펴보도록 합니다. 
