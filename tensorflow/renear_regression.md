@@ -83,3 +83,13 @@ plt.show()
 <div style="width:50%; margin:auto; margin-bottom:10px; margin-top:20px;">
 <img style="width:100%" src="../images/renear_regression2.png">
 </div>
+
+### 학습 데이터 테스트
+학습을 마친 후 새로운 데이터에 대해 정확한 분류가 되는지 확인합니다.
+```python
+test_set = [1,2,3]
+print sess.run(W * XX + b)
+
+# Output
+# [ 0.38831764  0.47651452  0.56471133]
+```
