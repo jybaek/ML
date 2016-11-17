@@ -1,4 +1,4 @@
-# 호지스틱 회귀 (logistic regression:classification)
+# 로지스틱 회귀 (logistic regression:classification)
 
 ## [모두의 머신러닝 Lab 5](https://www.youtube.com/watch?v=t7Y9luCNzzE&feature=youtu.be)
 
