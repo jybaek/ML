@@ -7,5 +7,6 @@
 * [머신러닝 분류](tensorflow/classification.md)
   * 지도 학습
     * [선형회귀분석(renear regression)](tensorflow/renear_regression.md)
+    * [로지스틱 회귀 (logistic regression:classification)](tensorflow/logistic_regression.md)
   * 비지도 학습
 * [용어집](tensorflow/glossary.md)
