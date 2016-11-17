@@ -2,7 +2,9 @@
 
 ## [모두의 머신러닝 Lab 5](https://www.youtube.com/watch?v=t7Y9luCNzzE&feature=youtu.be)
 
-학습목표는 [모두의 머신러닝]의 완성된 코드를 기반으로 응용할 수 있도록 합니다.
+로지스틱 회귀는 입력 데이터를 줬을 때 해당 데이터의 결과를 특정 분류로 나누는 함수를 나타냅니다. 그러므로 classification 기법이라고도 부릅니다.
+
+이번 학습 목표는 [모두의 머신러닝]의 완성된 코드를 기반으로 응용할 수 있도록 합니다.
 
 ```python
 import tensorflow as tf
