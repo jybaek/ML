@@ -39,11 +39,16 @@ W = tf.Variable(tf.random_uniform([1], -1.0, 1.0))
 b = tf.Variable(tf.zeros([1]))
 y = W * x_data + b
 
+# 비용함수를 계산합니다.
 loss = tf.reduce_mean(tf.square(y - y_data))
 
+# 경사 하강법 알고리즘을 사용 
 optimizer = tf.train.GradientDescentOptimizer(0.5)
+
+# 알고리즘의 최저값을 찾습니다.
 train = optimizer.minimize(loss)
 
+# Variable이 사용되었다면 아래처럼 초기화를 진행해야 합니다.
 init = tf.initialize_all_variables()
 
 sess = tf.Session()
