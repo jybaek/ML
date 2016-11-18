@@ -88,7 +88,7 @@ plt.show()
 학습을 마친 후 새로운 데이터에 대해 정확한 분류가 되는지 확인합니다.
 ```python
 test_set = [1,2,3]
-print sess.run(W * XX + b)
+print sess.run(W * test_set + b)
 
 # Output
 # [ 0.38831764  0.47651452  0.56471133]
