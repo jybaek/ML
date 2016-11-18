@@ -1,6 +1,6 @@
 # 선형회귀분석(renear regression)
 
-## [텐서플로 첫걸음] 2.1 변수 간의 관계에 대한 모델
+## [[텐서플로 첫걸음]](https://tensorflowkorea.wordpress.com/%ED%85%90%EC%84%9C%ED%94%8C%EB%A1%9C-%EC%B2%AB%EA%B1%B8%EC%9D%8C/) 2.1 변수 간의 관계에 대한 모델
 
 ```python
 import numpy as np
@@ -29,7 +29,7 @@ plt.show()
 <img style="width:100%" src="../images/renear_regression.png">
 </div>
 
-## [텐서플로 첫걸음] 2.2 비용함수와 경사 하강법 알고리즘
+## [[텐서플로 첫걸음]](https://tensorflowkorea.wordpress.com/%ED%85%90%EC%84%9C%ED%94%8C%EB%A1%9C-%EC%B2%AB%EA%B1%B8%EC%9D%8C/) 2.2 비용함수와 경사 하강법 알고리즘
 
 ```python
 # 2.1 예제 이후에 이어지는 내용입니다.
