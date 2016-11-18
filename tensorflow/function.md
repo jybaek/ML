@@ -1,4 +1,5 @@
 # 함수 
+대부분 내용이 [텐서플로 첫걸음](https://tensorflowkorea.wordpress.com/%ED%85%90%EC%84%9C%ED%94%8C%EB%A1%9C-%EC%B2%AB%EA%B1%B8%EC%9D%8C/)으로 부터 발췌되었습니다.
 
 ## 수학 함수
 함수 | 설명
@@ -27,7 +28,7 @@ tf.sin | 사인 함수 값을 계산합니다.
 함수 | 설명
 --- | ---
 tf.diag | 대각행렬을 리턴합니다.
-tf.transpose 전치행렬을 리턴합니다.
+tf.transpose | 전치행렬을 리턴합니다.
 tf.matmul | 두 텐서를 행렬곱한 결과 텐서를 리턴합니다.
 tf.matrix_determinant | 정방행렬의 행렬식 값을 리턴합니다.
 tf.matrix_inverse | 정방행렬의 역행렬을 리턴합니다.
