@@ -9,5 +9,5 @@
     * [선형회귀분석(renear regression)](tensorflow/renear_regression.md)
     * [로지스틱 회귀 (logistic regression:classification)](tensorflow/logistic_regression.md)
   * 비지도 학습
-    * 군집화 (clustering)
+    * [군집화 (clustering)](tensorflow/clustering)
 * [용어집](tensorflow/glossary.md)
