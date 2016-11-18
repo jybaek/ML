@@ -8,7 +8,7 @@
 
 ### 학습 방법
 
-  * "텐서플로 첫걸음" 예제 실습
+  * [텐서플로 첫걸음](https://tensorflowkorea.wordpress.com/%ED%85%90%EC%84%9C%ED%94%8C%EB%A1%9C-%EC%B2%AB%EA%B1%B8%EC%9D%8C/) 예제 실습
   * [텐서플로우 코리아](https://tensorflowkorea.wordpress.com/) 에서 많은 정보 습득
   * [텐서플로우 한글 문서](https://github.com/tensorflowkorea/tensorflow-kr) 번역에 참여하며 많은 도움을 받음
   * 서주영님께서 [페이스북 그룹 TensorFlow KR](https://www.facebook.com/groups/TensorFlowKR)에 공유해 주신 [강의 리스트](https://www.facebook.com/groups/TensorFlowKR/permalink/369723446702053/) 학습 
