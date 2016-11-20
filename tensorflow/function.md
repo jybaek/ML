@@ -1,5 +1,5 @@
 # 함수 
-대부분 내용이 [텐서플로 첫걸음](https://tensorflowkorea.wordpress.com/%ED%85%90%EC%84%9C%ED%94%8C%EB%A1%9C-%EC%B2%AB%EA%B1%B8%EC%9D%8C/)으로 부터 발췌되었습니다.
+대부분(현재는 100%) 내용이 [텐서플로 첫걸음](https://tensorflowkorea.wordpress.com/%ED%85%90%EC%84%9C%ED%94%8C%EB%A1%9C-%EC%B2%AB%EA%B1%B8%EC%9D%8C/)으로 부터 발췌되었습니다.
 
 ## 수학 함수
 함수 | 설명
