@@ -15,7 +15,7 @@ tensorflow는 여러 가지 메소드를 갖고있고 앞으로 그 메소드를
 ```python
 >>> sess = tf.Session()
 ```
-tensorflow에서 [Session](https://www.tensorflow.org/versions/r0.11/api_docs/python/client.html#Session)이라고 하는 클래스입니다. 오퍼레이션이 실행되고 평가되는 환경을 만들어 줍니다. python으로 작성하는 TensorFlow 코드를 실제 CPU나 GPU에 의해 동작할 수 있도록 연결해주는 고리라고 생각하면 됩니다. 모든 코드는 항상 Session 클래스를 생성하게 됩니다.
+tensorflow에서 [Session](https://www.tensorflow.org/versions/r0.11/api_docs/python/client.html#Session)이라고 하는 클래스입니다. 오퍼레이션이 실행되고 평가되는 환경을 만들어 줍니다. python으로 작성하는 TensorFlow 코드를 실제 CPU나 GPU에 의해 동작할 수 있도록 연결해주는 고리라고 생각하면 됩니다. 모든 코드는 항상 Session 클래스를 생성하게 됩니다. (오퍼레이션에 대한 설명은 향후 링크로 제공하겠습니다)
 
 ```python
 >>> print(sess.run(hello))
