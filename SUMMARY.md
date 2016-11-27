@@ -1,7 +1,7 @@
 # Summary
 
 * [머리말](README.md)
-* [학습준비](tensorflow/setting.md)
+* [학습준비: 환경 구축](tensorflow/setting.md)
 * [시작하기](tensorflow/start.md)
   * ["hello tensorflow" 예제](tensorflow/hello_tensorflow.md)
 * [머신러닝 분류](tensorflow/classification.md)
