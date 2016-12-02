@@ -11,5 +11,6 @@
     * [단일 계층 신경망: MNIST](tensorflow/mnist.md)
   * 비지도 학습
     * [군집화 (clustering)](tensorflow/clustering.md)
+    * [word2vec](tensorflow/word2vec.md)
 * [함수 정리](tensorflow/function.md)
 * [용어집](tensorflow/glossary.md)
