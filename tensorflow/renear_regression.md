@@ -24,6 +24,9 @@ import matplotlib.pyplot as plt # needs "pip install matplotlib"
 plt.plot(x_data, y_data, 'ro')
 plt.legend()
 plt.show()
+
+except ImportError:
+  print("Please install matplotlib to visualize embeddings.")
 ```
 <div style="width:50%; margin:auto; margin-bottom:10px; margin-top:20px;">
 <img style="width:100%" src="../images/renear_regression.png">

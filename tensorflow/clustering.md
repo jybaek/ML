@@ -32,6 +32,9 @@ df = pd.DataFrame({"x": [v[0] for v in vectors_set],
                    "y": [v[1] for v in vectors_set]})
 sns.lmplot("x", "y", data=df, fit_reg=False, size=6)
 plt.show()
+
+except ImportError:
+  print("Please install pandas, seaborn to visualize embeddings.")
 ```
 <div style="width:50%; margin:auto; margin-bottom:10px; margin-top:20px;">
 <img style="width:100%" src="../images/k_algo_random_data.png">
