@@ -1,4 +1,4 @@
-
+# word2vec
 
 아래 소스는 tensorflow tutorial에서 [word2vec](https://github.com/tensorflow/tensorflow/blob/r0.12/tensorflow/examples/tutorials/word2vec/word2vec_basic.py)을 가져온 내용입니다.
 
