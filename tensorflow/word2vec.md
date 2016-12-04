@@ -1,6 +1,6 @@
 # word2vec
 
-아래 소스는 TensorFlow tutorial에서 [word2vec](https://github.com/tensorflow/tensorflow/blob/r0.12/tensorflow/examples/tutorials/word2vec/word2vec_basic.py)을 가져온 내용입니다.
+아래 코드는 TensorFlow tutorial [word2vec](https://github.com/tensorflow/tensorflow/blob/r0.12/tensorflow/examples/tutorials/word2vec/word2vec_basic.py)의 내용입니다.
 
 ```python
 # Copyright 2015 The TensorFlow Authors. All Rights Reserved.
