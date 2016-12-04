@@ -242,6 +242,7 @@ def plot_with_labels(low_dim_embs, labels, filename='tsne.png'):
   plt.savefig(filename)
 
 try:
+  %pylab inline
   from sklearn.manifold import TSNE
   import matplotlib.pyplot as plt
 
@@ -254,5 +255,10 @@ try:
 except ImportError:
   print("Please install sklearn, matplotlib, and scipy to visualize embeddings.")
 ```
+<div style="width:50%; margin:auto; margin-bottom:10px; margin-top:20px;">
+<img style="width:100%" src="../images/word2vec.png">
+</div>
 
-`global_variables_initializer()` 함수는 0.12 버전부터 제공됩니다. 그 이하 버전에서 실습 할 때는 `initialize_all_variables()` 함수를 사용하도록 합니다.
+`global_variables_initializer()` 함수는 0.12 버전부터 제공됩니다. 그 이하 버전에서실습 할 때는 `initialize_all_variables()` 함수를 사용하도록 합니다.
+
+`jupyter notebook`으로 실습할 때 그래프가 시각화되지 않는 문제가 있는데 중간에 `%pylab inline`을 사용해서 문제를 해결 할 수 있습니다.
