@@ -1,7 +1,7 @@
 # word2vec
 
 word2vec는 비슷한 단어들끼리 집단화(clustering)시키는 모델입니다.
-실습을 위한 아래 코드는 TensorFlow tutorial [word2vec](https://github.com/tensorflow/tensorflow/blob/r0.12/tensorflow/examples/tutorials/word2vec/word2vec_basic.py)의 내용입니다. 이를 참고해서 word2vec를 학습하도록 합시다.
+실습을 위한 아래 코드는 TensorFlow tutorial [word2vec](https://github.com/tensorflow/tensorflow/blob/r0.12/tensorflow/examples/tutorials/word2vec/word2vec_basic.py)의 내용입니다. 이를 참고해서 word2vec를 학습하도록 합시다. 또한 관련 문서는 [텐서플로우 문서 한글 번역본](https://tensorflowkorea.gitbooks.io/tensorflow-kr/content/g3doc/tutorials/word2vec/)을 참고하도록 합니다.
 
 ```python
 # Copyright 2015 The TensorFlow Authors. All Rights Reserved.
