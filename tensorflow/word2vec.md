@@ -254,3 +254,5 @@ try:
 except ImportError:
   print("Please install sklearn, matplotlib, and scipy to visualize embeddings.")
 ```
+
+`global_variables_initializer()` 함수는 0.12 버전부터 제공됩니다. 그 이하 버전에서 실습 할 때는 `initialize_all_variables()` 함수를 사용하도록 합니다.
