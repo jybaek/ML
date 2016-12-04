@@ -1,5 +1,6 @@
 # word2vec
 
+word2vec는 비슷한 단어들끼리 집단화(clustering)시키는 모델입니다.
 아래 코드는 TensorFlow tutorial [word2vec](https://github.com/tensorflow/tensorflow/blob/r0.12/tensorflow/examples/tutorials/word2vec/word2vec_basic.py)의 내용입니다.
 
 ```python
