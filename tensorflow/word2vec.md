@@ -33,7 +33,7 @@ from six.moves import urllib
 from six.moves import xrange  # pylint: disable=redefined-builtin
 import tensorflow as tf
 
-# Step 1: Download the data.
+# Step 1: 데이터를 다운로드 합니다.
 url = 'http://mattmahoney.net/dc/'
 
 
@@ -53,7 +53,7 @@ def maybe_download(filename, expected_bytes):
 filename = maybe_download('text8.zip', 31344016)
 
 
-# Read the data into a list of strings.
+# 데이터를 읽어서 리스트에 문자열을 넣습니다.
 def read_data(filename):
   """Extract the first file enclosed in a zip file as a list of words"""
   with zipfile.ZipFile(filename) as f:
@@ -63,7 +63,7 @@ def read_data(filename):
 words = read_data(filename)
 print('Data size', len(words))
 
-# Step 2: Build the dictionary and replace rare words with UNK token.
+# Step 2: 사전을 구축하고 드문 단어를 UNK 토큰으로 변경합니다.
 vocabulary_size = 50000
 
 
@@ -94,7 +94,7 @@ print('Sample data', data[:10], [reverse_dictionary[i] for i in data[:10]])
 data_index = 0
 
 
-# Step 3: Function to generate a training batch for the skip-gram model.
+# Step 3: skip-gram 모델에 대한 훈련 배치를 생성하는 함수.
 def generate_batch(batch_size, num_skips, skip_window):
   global data_index
   assert batch_size % num_skips == 0
@@ -124,7 +124,7 @@ for i in range(8):
   print(batch[i], reverse_dictionary[batch[i]],
         '->', labels[i, 0], reverse_dictionary[labels[i, 0]])
 
-# Step 4: Build and train a skip-gram model.
+# Step 4: skip-gram 모델을 구축하고 훈련하십시오.
 
 batch_size = 128
 embedding_size = 128  # Dimension of the embedding vector.
@@ -183,7 +183,7 @@ with graph.as_default():
   #init = tf.global_variables_initializer()
   init = tf.initialize_all_variables()
 
-# Step 5: Begin training.
+# Step 5: 훈련을 시작하십시오.
 num_steps = 100001
 
 with tf.Session(graph=graph) as session:
@@ -223,7 +223,7 @@ with tf.Session(graph=graph) as session:
         print(log_str)
   final_embeddings = normalized_embeddings.eval()
 
-# Step 6: Visualize the embeddings.
+# Step 6: 임베딩을 시각화합니다.
 
 
 def plot_with_labels(low_dim_embs, labels, filename='tsne.png'):
