@@ -67,7 +67,6 @@ print('Data size', len(words))
 # Step 2: 사전을 구축하고 드문 단어를 UNK 토큰으로 변경합니다.
 vocabulary_size = 50000
 
-
 def build_dataset(words):
   count = [['UNK', -1]]
   count.extend(collections.Counter(words).most_common(vocabulary_size - 1))
@@ -226,7 +225,6 @@ with tf.Session(graph=graph) as session:
 
 # Step 6: 임베딩을 시각화합니다.
 
-
 def plot_with_labels(low_dim_embs, labels, filename='tsne.png'):
   assert low_dim_embs.shape[0] >= len(labels), "More labels than embeddings"
   plt.figure(figsize=(18, 18))  # in inches
@@ -262,4 +260,4 @@ except ImportError:
 
 `global_variables_initializer()` 함수는 0.12 버전부터 제공됩니다. 그 이하 버전에서실습 할 때는 `initialize_all_variables()` 함수를 사용하도록 합니다.
 
-`jupyter notebook`으로 실습할 때 그래프가 시각화되지 않는 문제가 있는데 중간에 `%pylab inline`을 사용해서 문제를 해결 할 수 있습니다.
+`jupyter notebook`으로 실습할 때 그래프가 시각화되지 않는 문제가 있는데 중간에 `%pylab inline`을 사용해서 문제를 해결 할 수 있습니다. `% pylab`은 ipython에 magic function입니다. 더 자세한 내용은 [이곳](http://jakevdp.github.io/mpl_tutorial/tutorial_pages/tut1.html)에서 참고할 수 있습니다.
