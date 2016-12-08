@@ -19,11 +19,12 @@ y_data = [v[1] for v in vectors_set]
 
 ### 데이터를 그림으로 표현
 ```python
-import matplotlib.pyplot as plt # needs "pip install matplotlib"
+try:
+  import matplotlib.pyplot as plt # needs "pip install matplotlib"
 
-plt.plot(x_data, y_data, 'ro')
-plt.legend()
-plt.show()
+  plt.plot(x_data, y_data, 'ro')
+  plt.legend()
+  plt.show()
 
 except ImportError:
   print("Please install matplotlib to visualize embeddings.")
