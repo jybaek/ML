@@ -37,7 +37,6 @@ import tensorflow as tf
 # Step 1: 데이터를 다운로드 합니다.
 url = 'http://mattmahoney.net/dc/'
 
-
 def maybe_download(filename, expected_bytes):
   """Download a file if not present, and make sure it's the right size."""
   if not os.path.exists(filename):
@@ -92,7 +91,6 @@ print('Most common words (+UNK)', count[:5])
 print('Sample data', data[:10], [reverse_dictionary[i] for i in data[:10]])
 
 data_index = 0
-
 
 # Step 3: skip-gram 모델에 대한 훈련 배치를 생성하는 함수.
 def generate_batch(batch_size, num_skips, skip_window):
