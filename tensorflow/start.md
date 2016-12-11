@@ -19,4 +19,10 @@
 ![jpeg](https://tensorflowkorea.files.wordpress.com/2016/05/comparison_of_deep_learning_package.png)
 > 출처:[tensorflowkorea](https://tensorflowkorea.wordpress.com/2016/05/21/%EB%94%A5%EB%9F%AC%EB%8B%9D-%ED%8C%A8%ED%82%A4%EC%A7%80-%EB%B9%84%EA%B5%90/)
 
+github에서 [Machine learning 카테고리](https://github.com/showcases/machine-learning)를 확인해봅니다. 역시 가장 많은 별(Star)을 보유하고 있습니다. `Laying the foundations for Skynet` 이라는 문구가 무척 재치있게 다가오는군요!
+<div style="width:50%; margin:auto; margin-bottom:10px; margin-top:20px;">
+<img style="width:100%" src="../images/skynet.png">
+</div>
+
+
 후에 나머지도 천천히 실펴보도록 합니다. 
