@@ -4,6 +4,7 @@
 
 임의의 랜덤한 데이터를 생성합니다.
 ```python
+# numpy는 파이썬에서 다차원 배열과 행렬을 다루기 위한 높은 수준의 수학함수 라이브러리를 지원합니다.
 import numpy as np
 
 num_points = 1000
