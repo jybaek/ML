@@ -14,6 +14,8 @@ vectors_set = []
 
 for i in xrange(num_points):
     x1 = np.random.normal(0.0, 0.55)
+
+	# 랜덤한 데이터 생성을 위해 정규분포를 이용해서 그래프를 흔들어줍니다.
     y1 = x1 * 0.1 + 0.3 + np.random.normal(0.0, 0.03) # np.random.normal() = 정규분포
     vectors_set.append([x1, y1])
 
