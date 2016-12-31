@@ -19,11 +19,15 @@ for i in xrange(num_points):
     y1 = x1 * 0.1 + 0.3 + np.random.normal(0.0, 0.03) # np.random.normal() = 정규분포
     vectors_set.append([x1, y1])
 
+# x_data는 입력을 의미합니다.
 x_data = [v[0] for v in vectors_set]
+
+# y_data는 라벨(출력)을 의미합니다.
 y_data = [v[1] for v in vectors_set]
 ```
 
 ### 데이터를 그림으로 표현
+위에서 생성한 랜덤 데이터를 그래프상에 출력해봅니다.
 ```python
 try:
   import matplotlib.pyplot as plt # needs "pip install matplotlib"
