@@ -67,6 +67,7 @@ train = optimizer.minimize(loss)
 # 모든 Variable은 초기화해서 사용해야 합니다.
 init = tf.initialize_all_variables()
 
+# 모델을 생성하고 실행시키도록 합니다.
 sess = tf.Session()
 sess.run(init)
 
