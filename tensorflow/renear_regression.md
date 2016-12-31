@@ -71,6 +71,7 @@ init = tf.initialize_all_variables()
 sess = tf.Session()
 sess.run(init)
 
+# 학습이 진행될수록 최적의 기울기가 찾아집니다.
 for step in xrange(8):
     sess.run(train)   
     print sess.run(W), sess.run(b)
