@@ -50,6 +50,7 @@ except ImportError:
 # 2.1 예제 이후에 이어지는 내용입니다.
 import tensorflow as tf
 
+# tf.Variable은 TensorFlow에서 변수를 의미합니다.
 W = tf.Variable(tf.random_uniform([1], -1.0, 1.0))
 b = tf.Variable(tf.zeros([1]))
 y = W * x_data + b
