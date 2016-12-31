@@ -64,7 +64,7 @@ optimizer = tf.train.GradientDescentOptimizer(0.5)
 # 알고리즘의 최저값을 찾습니다.
 train = optimizer.minimize(loss)
 
-# Variable이 사용되었다면 아래처럼 초기화를 진행해야 합니다.
+# 모든 Variable은 초기화해서 사용해야 합니다.
 init = tf.initialize_all_variables()
 
 sess = tf.Session()
