@@ -53,6 +53,7 @@ except ImportError:
 import tensorflow as tf
 
 # tf.Variable은 TensorFlow에서 변수를 의미합니다.
+# 아래 코드는 -1.0 ~ 1.0 사이에 랜덤한 수로 W의 초기값을 설정하겠다는 의미입니다.
 W = tf.Variable(tf.random_uniform([1], -1.0, 1.0))
 b = tf.Variable(tf.zeros([1]))
 y = W * x_data + b
