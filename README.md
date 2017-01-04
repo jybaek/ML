@@ -12,7 +12,7 @@
   * [텐서플로우 코리아](https://tensorflowkorea.wordpress.com/) 에서 많은 정보 습득
   * [텐서플로우 한글 문서](https://github.com/tensorflowkorea/tensorflow-kr) 번역에 참여하며 많은 도움을 받음
   * 서주영님께서 [페이스북 그룹 TensorFlow KR](https://www.facebook.com/groups/TensorFlowKR)에 공유해 주신 
-  [강의 리스트](https://www.facebook.com/groups/TensorFlowKR/permalink/369723446702053/) 학습 
+[강의 리스트](https://www.facebook.com/groups/TensorFlowKR/permalink/369723446702053/) 학습 
     * 인터넷에 많은 자료를 모아놓은 게시글
 
 ### 학습 기록
