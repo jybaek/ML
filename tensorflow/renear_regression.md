@@ -52,6 +52,10 @@ except ImportError:
 # 2.1 예제 이후에 이어지는 내용입니다.
 import tensorflow as tf
 
+# 마지막에 test_set을 돌려보기 위해 x_data와 y_data를 placeholder로 재지정합니다.
+x_data = tf.placeholder(tf.float32)
+y_data = tf.placeholder(tf.float32)
+
 # tf.Variable은 TensorFlow에서 변수를 의미합니다.
 # 아래 코드는 -1.0 ~ 1.0 사이에 랜덤한 수로 W의 초기값을 설정하겠다는 의미입니다.
 W = tf.Variable(tf.random_uniform([1], -1.0, 1.0))
@@ -76,7 +80,7 @@ sess.run(init)
 
 # 학습이 진행될수록 최적의 기울기가 찾아집니다.
 for step in xrange(8):
-    sess.run(train)   
+    sess.run(train, feed_dict={x_data:[v[0] for v in vectors_set], y_data:[v[1] for v in vectors_set]})
     print sess.run(W), sess.run(b)
 
 '''
@@ -109,7 +113,7 @@ plt.show()
 학습을 마친 후 새로운 데이터에 대해 정확한 분류가 되는지 확인합니다.
 ```python
 test_set = [1,2,3]
-print sess.run(W * test_set + b)
+print sess.run(y, feed_dict={x_data:test_set})
 
 # Output
 # [ 0.38831764  0.47651452  0.56471133]
