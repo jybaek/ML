@@ -3,7 +3,7 @@
 
 ### 학습 목표
 
-  * 평범한 Low-level Language 임베디드 개발자도 python을 학습하고 TensorFlow를 쉽게 조작할 수 있다는 것을 확인
+  * 평범한 Low-Level Language 임베디드 개발자의 python과 TensorFlow의 학습 기록
   * TensorFlow, python을 전혀 모르는 시각으로 출발하는 정리의 시간
 
 ### 학습 방법
