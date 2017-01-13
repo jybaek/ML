@@ -15,6 +15,7 @@
 [강의 리스트](https://www.facebook.com/groups/TensorFlowKR/permalink/369723446702053/)를 기반으로 학습 진행
     * 인터넷에 많은 자료를 모아놓은 게시글
   * [TensorFlow KR 두번째 모임](https://www.youtube.com/playlist?list=PLlMkM4tgfjnLHjEoaRKLdbpSIDJhiLtZE) (2017.01.14)
+  * [KAIST 오혜연 교수님](https://www.youtube.com/watch?v=Wf6lIlJZgKg) 강의 학습
 
 ### 학습 기록
 
