@@ -43,7 +43,9 @@
 순환 신경망은 [인공신경망](https://ko.wikipedia.org/wiki/%EC%9D%B8%EA%B3%B5%EC%8B%A0%EA%B2%BD%EB%A7%9D)을 구성하는 유닛 사이의 연결이 Directed cycle을 구성하는 신경망을 말한다. 순환 신경망은 앞먹임 신경망과 달리, 임의의 입력을 처리하기 위해 신경망 내부의 메모리를 활용할 수 있다. 이러한 특성에 의해 순환 신경망은 필기체 인식(Handwriting recognition)과 같은 분야에 활용되고 있고, 높은 인식률을 나타낸다. 순환 신경망을 구성할 수 있는 구조에는 여러가지 방식이 사용되고 있다. 완전 순환망(Fully Recurrent Network), Hopfield Network, Elman Network, Echo state network(ESN), Long short term memory network(LSTM), Bi-directional RNN, Continuous-time RNN(CTRNN), Hierarchical RNN, Second Order RNN 등이 대표적인 예이다. 순환 신경망을 훈련(Training)시키기 위해 대표적으로 [경사 하강법](https://ko.wikipedia.org/wiki/%EA%B2%BD%EC%82%AC_%ED%95%98%EA%B0%95%EB%B2%95), Hessian Free Optimization, Global Optimization Methods 방식이 쓰이고 있다. 하지만 순환 신경망은 많은 수의 뉴런 유닛이나 많은 수의 입력 유닛이 있는 경우에 훈련이 쉽지 않은 스케일링 이슈를 가지고있다. (출처:위키피디아)
 ## S
 ### Sigmoid (시그모이드)
+완만한 S자 형태를 보이는 그래프. sigmoid 함수의 리턴은 0 ~ 1 사이의 값이다.
 ### Softmax (소프트맥스)
+모든 확률을 더했을때 1을 만드는 함수. 예를 들자면 여러 경우의 수를 0.7, 0.2, 0.1 이런식으로 보여준다.
 ## T
 ### Tensor (텐서)
 동적 크기를 갖는 다차원 데이터 배열로 볼 수 있으며 불리언이나 문자열, 여러 종류의 숫자 같은 정적 자료형을 가지는 텐서플로우의 기본 자료구조 (출처:[텐서플로 첫걸음](https://tensorflowkorea.wordpress.com/%ED%85%90%EC%84%9C%ED%94%8C%EB%A1%9C-%EC%B2%AB%EA%B1%B8%EC%9D%8C/))
