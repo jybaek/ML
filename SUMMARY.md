@@ -14,5 +14,6 @@
     * [word2vec](tensorflow/word2vec.md)
   * CNN (tobe)
   * RNN (tobe)
+  * RL (tobe)
 * [함수 정리](tensorflow/function.md)
 * [용어집](tensorflow/glossary.md)
