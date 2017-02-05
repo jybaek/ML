@@ -12,8 +12,8 @@
   * 비지도 학습
     * [군집화 (clustering)](tensorflow/clustering.md)
     * [word2vec](tensorflow/word2vec.md)
-  * CNN (tobe)
-  * RNN (tobe)
-  * RL (tobe)
+  * CNN (Convolutional Neural Network) (tobe)
+  * RNN (Recurrent Neural Network) (tobe)
+  * RL (Reinforcement Learning) (tobe)
 * [함수 정리](tensorflow/function.md)
 * [용어집](tensorflow/glossary.md)
