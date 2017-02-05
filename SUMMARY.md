@@ -7,7 +7,7 @@
 * [머신러닝 분류](tensorflow/classification.md)
   * 지도 학습
   * 비지도 학습
-* 알고리즘 
+* 알고리즘
   * [선형회귀분석(renear regression)](tensorflow/renear_regression.md)
   * [로지스틱 회귀 (logistic regression:classification)](tensorflow/logistic_regression.md)
   * [단일 계층 신경망: MNIST](tensorflow/mnist.md)
