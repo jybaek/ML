@@ -1,5 +1,5 @@
-# [¸ğµÎ¸¦ À§ÇÑ ¸Ó½Å·¯´×°ú µö·¯´×ÀÇ °­ÀÇ](http://hunkim.github.io/ml/)
-Lecture 2: OpenAI GYM °ÔÀÓÇØº¸±â
+# [ëª¨ë‘ë¥¼ ìœ„í•œ ë¨¸ì‹ ëŸ¬ë‹ê³¼ ë”¥ëŸ¬ë‹ì˜ ê°•ì˜](http://hunkim.github.io/ml/)
+## Lecture 2: OpenAI GYM ê²Œì„í•´ë³´ê¸°
 ```python
 class _Getch:
     def __call__(selfself):
@@ -64,12 +64,12 @@ while True:
         break
 ```
 
-È¦¿¡ ºüÁ³À» ¶§ °á°ú (½ÇÆĞ)
+í™€ì— ë¹ ì¡Œì„ ë•Œ ê²°ê³¼ (ì‹¤íŒ¨)
 <div style="width:50%; margin:auto; margin-bottom:10px; margin-top:20px;">
 <img style="width:100%" src="rl-l02-1.png">
 </div>
 
-°ñ¿¡ µµÂø ÇßÀ» ¶§ °á°ú (¼º°ø)
+ê³¨ì— ë„ì°© í–ˆì„ ë•Œ ê²°ê³¼ (ì„±ê³µ)
 <div style="width:50%; margin:auto; margin-bottom:10px; margin-top:20px;">
 <img style="width:100%" src="rl-l02-2.png">
 </div>
