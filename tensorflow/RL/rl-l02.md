@@ -64,12 +64,12 @@ while True:
         break
 ```
 
-홀에 빠졌을 때 결과 (실패)
+### 홀에 빠졌을 때 결과 (실패)
 <div style="width:50%; margin:auto; margin-bottom:10px; margin-top:20px;">
 <img style="width:100%" src="rl-l02-1.png">
 </div>
 
-골에 도착 했을 때 결과 (성공)
+### 골에 도착 했을 때 결과 (성공)
 <div style="width:50%; margin:auto; margin-bottom:10px; margin-top:20px;">
 <img style="width:100%" src="rl-l02-2.png">
 </div>
