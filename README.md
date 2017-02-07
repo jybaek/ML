@@ -19,6 +19,7 @@
   * [KAIST 오혜연 교수님](https://www.youtube.com/watch?v=Wf6lIlJZgKg) 강의 학습
   * [머신러닝 맵](https://www.mindmeister.com/ko/812276967/_)에서 추가 가이드 정보 습득
   * [이찬우님 유튜브 강의](https://www.youtube.com/watch?v=a74pFg8paVc)
+  * [NumPy Tutorial](https://www.dataquest.io/blog/numpy-tutorial-python/)
 
 ### 학습 기록
 
