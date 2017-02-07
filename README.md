@@ -6,7 +6,7 @@
   * 평범한 Low-Level Language 임베디드 개발자의 python과 TensorFlow의 학습 기록
   * TensorFlow, python을 전혀 모르는 시각으로 출발하는 정리의 시간
 
-### 학습 방법
+### 학습 자료
 
   * [모두를 위한 머신러닝/딥러닝 강의](https://hunkim.github.io/ml)을 기반으로 학습
   * [텐서플로 첫걸음](https://tensorflowkorea.wordpress.com/%ED%85%90%EC%84%9C%ED%94%8C%EB%A1%9C-%EC%B2%AB%EA%B1%B8%EC%9D%8C/) 예제 실습
@@ -17,6 +17,7 @@
     * 인터넷에 많은 자료를 모아놓은 게시글
   * [TensorFlow KR 두번째 모임](https://www.youtube.com/playlist?list=PLlMkM4tgfjnLHjEoaRKLdbpSIDJhiLtZE) (2017.01.14)
   * [KAIST 오혜연 교수님](https://www.youtube.com/watch?v=Wf6lIlJZgKg) 강의 학습
+  * [머신러닝 맵](https://www.mindmeister.com/ko/812276967/_)에서 추가 가이드 정보 습득
 
 ### 학습 기록
 
