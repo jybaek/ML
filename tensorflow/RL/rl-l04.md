@@ -67,7 +67,7 @@ plt.show()
 ### Code: Q learning
 #### 실행 결과
 <div style="width:50%; margin:auto; margin-bottom:10px; margin-top:20px;">
-<img style="width:100%" src="images/rl-l04-1.png">
+<img style="width:100%" src="images/rl-l04-2.png">
 </div>
 
 #### 그래프
