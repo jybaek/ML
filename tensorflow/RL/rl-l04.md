@@ -1,4 +1,4 @@
-# [¸ğµÎ¸¦ À§ÇÑ ¸Ó½Å·¯´×°ú µö·¯´×ÀÇ °­ÀÇ](http://hunkim.github.io/ml/)
+# [ëª¨ë‘ë¥¼ ìœ„í•œ ë¨¸ì‹ ëŸ¬ë‹ê³¼ ë”¥ëŸ¬ë‹ì˜ ê°•ì˜](http://hunkim.github.io/ml/)
 ## Lecture 4: Q-learning (table)
 exploit&exploration and discounted future reward
 ```python
@@ -40,7 +40,7 @@ for i in range(num_episodes):
         else:
             action = np.argmax(Q[state, :])
 
-		# Q-learning »ç¿ë½Ã È°¼ºÈ­ (¹Ù·Î À§ Á¶°Ç¹® ´ë½Å)
+		# Q-learning ì‚¬ìš©ì‹œ í™œì„±í™” (ë°”ë¡œ ìœ„ ì¡°ê±´ë¬¸ ëŒ€ì‹ )
         #action = np.argmax(Q[state, :] + np.random.randn(1, env.action_space.n) / (i + 1))
 
         # Get new state and reward from environment
@@ -59,29 +59,29 @@ print("Final Q-Table Values")
 #print("LEFT DOWN RIGHT UP")
 print(Q)
 
-# edgecolor°¡ ¾øÀ¸¸é python2 ¿¡¼­ ±×·¡ÇÁ°¡ °ËÀº»öÀ¸·Î Ç¥±âµÈ´Ù.
+# edgecolorê°€ ì—†ìœ¼ë©´ python2 ì—ì„œ ê·¸ë˜í”„ê°€ ê²€ì€ìƒ‰ìœ¼ë¡œ í‘œê¸°ëœë‹¤.
 plt.bar(range(len(rList)), rList, color="blue", edgecolor='none') 
 plt.show()
 ```
 
 ### Code: Q learning
-#### ½ÇÇà °á°ú
+#### ì‹¤í–‰ ê²°ê³¼
 <div style="width:50%; margin:auto; margin-bottom:10px; margin-top:20px;">
 <img style="width:100%" src="images/rl-l04-2.png">
 </div>
 
-#### ±×·¡ÇÁ
+#### ê·¸ë˜í”„
 <div style="width:50%; margin:auto; margin-bottom:10px; margin-top:20px;">
 <img style="width:100%" src="images/rl-l04-1.png">
 </div>
 
 ### Code: e-greedy
-#### ½ÇÇà °á°ú
+#### ì‹¤í–‰ ê²°ê³¼
 <div style="width:50%; margin:auto; margin-bottom:10px; margin-top:20px;">
 <img style="width:100%" src="images/rl-l04-3.png">
 </div>
 
-#### ±×·¡ÇÁ
+#### ê·¸ë˜í”„
 <div style="width:50%; margin:auto; margin-bottom:10px; margin-top:20px;">
 <img style="width:100%" src="images/rl-l04-4.png">
 </div>

@@ -1,4 +1,4 @@
-# [¸ğµÎ¸¦ À§ÇÑ ¸Ó½Å·¯´×°ú µö·¯´×ÀÇ °­ÀÇ](http://hunkim.github.io/ml/)
+# [ëª¨ë‘ë¥¼ ìœ„í•œ ë¨¸ì‹ ëŸ¬ë‹ê³¼ ë”¥ëŸ¬ë‹ì˜ ê°•ì˜](http://hunkim.github.io/ml/)
 ## Lecture 3: Dummy Q-learning (table)
 ```python
 import gym
@@ -54,17 +54,17 @@ print("Success rate: " + str(sum(rList)/num_episodes))
 print("Final Q-Table Values")
 print("LEFT DOWN RIGHT UP")
 print(Q)
-# edgecolor°¡ ¾øÀ¸¸é python2 ¿¡¼­ ±×·¡ÇÁ°¡ °ËÀº»öÀ¸·Î Ç¥±âµÈ´Ù.
+# edgecolorê°€ ì—†ìœ¼ë©´ python2 ì—ì„œ ê·¸ë˜í”„ê°€ ê²€ì€ìƒ‰ìœ¼ë¡œ í‘œê¸°ëœë‹¤.
 plt.bar(range(len(rList)), rList, color="blue", edgecolor='none') 
 plt.show()
 ```
 
-### ½ÇÇà °á°ú
+### ì‹¤í–‰ ê²°ê³¼
 <div style="width:50%; margin:auto; margin-bottom:10px; margin-top:20px;">
 <img style="width:100%" src="images/rl-l03-1.png">
 </div>
 
-### ±×·¡ÇÁ
+### ê·¸ë˜í”„
 <div style="width:50%; margin:auto; margin-bottom:10px; margin-top:20px;">
 <img style="width:100%" src="images/rl-l03-2.png">
 </div>
