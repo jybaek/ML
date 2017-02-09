@@ -5,3 +5,4 @@
 
   * [Lecture 2: OpenAI GYM 게임해보기](rl-l02.md)
   * [Lecture 3: Dummy Q-learning (table)](rl-l03.md)
+  * [Lecture 3: Q-learning (table)](rl-l04.md)
