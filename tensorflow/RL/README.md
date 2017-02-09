@@ -3,5 +3,5 @@
 
 실습 과정 중 동작을 위해 극히 일부 코드 수정.
 
-  * [Lecture 2: OpenAI GYM 게임해보기](tensorflow/RL/rl-l02.md)
-  * [Lecture 3: Dummy Q-learning (table)](tensorflow/RL/rl-l03.md)
+  * [Lecture 2: OpenAI GYM 게임해보기](rl-l02.md)
+  * [Lecture 3: Dummy Q-learning (table)](rl-l03.md)
