@@ -7,9 +7,6 @@ import matplotlib.pyplot as plt
 from gym.envs.registration import register
 import random as pr
 
-from gym.envs.registration import register
-import random as pr
-
 def rargmax(vector) : #https://gist.github.com/stober/1943451
     """ Argmax that chooses randomly among eligible maximum indices. """
     m = np.amax(vector)
