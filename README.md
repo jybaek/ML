@@ -1,6 +1,8 @@
 # ML (Machine Learning)
 ## 임베디드 개발자의 TensorFlow 학습하기
 
+### [목차 바로가기](SUMMARY.md)
+
 ### 학습 목표
 
   * 평범한 Low-Level Language 임베디드 개발자의 python과 TensorFlow의 학습 기록
