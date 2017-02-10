@@ -85,3 +85,9 @@ plt.show()
 <div style="width:50%; margin:auto; margin-bottom:10px; margin-top:20px;">
 <img style="width:100%" src="images/rl-l04-4.png">
 </div>
+
+#### 실행 화면
+30초 화면이라 짧지만, 뒤로 갈수록 실패가 적어진다. 테스트에서 사용된 episodes가 2000이니까 약 10~20%에 해당하는 count(100~200)가 진행된 이후로는 성공이 실패를 역전하게 된다.
+<div style="width:50%; margin:auto; margin-bottom:10px; margin-top:20px;">
+<img style="width:100%" src="gif/rl-l04-4.gif">
+</div>
