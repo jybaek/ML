@@ -11,7 +11,9 @@ register(
     id='FrozenLake-v3',
     entry_point='gym.envs.toy_text:FrozenLakeEnv',
     kwargs={'map_name': '4x4',
-            'is_slippery': False}
+			# 아래 주석을 풀면 map을 정의해서 사용할 수도 있다.
+			#'desc':["SFFF","FHHF","FHFF","FFHF","FFHG"],             
+			'is_slippery': False}
 )
 
 env = gym.make('FrozenLake-v3')
