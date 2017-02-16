@@ -18,5 +18,7 @@
 	* [Lecture 3: Dummy Q-learning (table)](tensorflow/RL/rl-l03.md)
 	* [Lecture 4: Q-learning (table)](tensorflow/RL/rl-l04.md)
     * [Lecture 5: Q-learning in non-deterministic world](tensorflow/RL/rl-l05.md)
+    * [Lecture 5: Q-learning in non-deterministic world](tensorflow/RL/rl-l05.md)
+    * [Lecture 6-1: Q Network for Frozen Lake](tensorflow/RL/rl-l06-1.md)
 * [함수 정리](tensorflow/function.md)
 * [용어집](tensorflow/glossary.md)
