@@ -1,4 +1,4 @@
-
+# 아직 동작안함
 import numpy as np
 import tensorflow  as tf
 
