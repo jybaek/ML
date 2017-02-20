@@ -8,3 +8,4 @@
   * [Lecture 4: Q-learning (table)](rl-l04.md)
   * [Lecture 5: Q-learning in non-deterministic world](rl-l05.md)
   * [Lecture 6-1: Q Network for Frozen Lake](rl-l06-1.md)
+  * [Lecture 6-2: Q Network for Cart Pole](rl-l06-2.md)
