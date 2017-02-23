@@ -246,6 +246,13 @@ try:
 
   from sklearn.manifold import TSNE
   import matplotlib.pyplot as plt
+  # 한글의 경우 plt 그래프에서 깨지므로 아래 주석을 해제하고 폰트를 지정해서 사용하십시오.
+  """
+  from matplotlib import font_manager, rc
+
+  font_name = font_manager.FontProperties(fname="/usr/share/fonts/truetype/nanum/NanumGothic.ttf").get_name()
+  rc('font', family=font_name)
+  """
 
   tsne = TSNE(perplexity=30, n_components=2, init='pca', n_iter=5000)
   plot_only = 500
