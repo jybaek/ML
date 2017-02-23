@@ -237,9 +237,13 @@ def plot_with_labels(low_dim_embs, labels, filename='tsne.png'):
                  va='bottom')
 
   plt.savefig(filename)
+  #plt.show()
 
 try:
+  # jupyter notebook을 위한 코드입니다.
+  # pycharm 등에서 실행하려면 plot_with_labels()함수에 plt.show()를 주석 해제하십시오.
   %pylab inline
+
   from sklearn.manifold import TSNE
   import matplotlib.pyplot as plt
 
