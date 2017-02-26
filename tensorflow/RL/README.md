@@ -9,3 +9,6 @@
   * [Lecture 5: Q-learning in non-deterministic world](rl-l05.md)
   * [Lecture 6-1: Q Network for Frozen Lake](rl-l06-1.md)
   * [Lecture 6-2: Q Network for Cart Pole](rl-l06-2.md)
+
+## 또 다른 gym의 실습 결과
+  * [gym-test](https://github.com/jybaek/gym-test)
