@@ -36,9 +36,3 @@
 * 깃북의 주소는 [https://jybaek.gitbooks.io/ml/content](https://jybaek.gitbooks.io/ml/content) 입니다.
 * 문서에 잘못된 점이나 부족한 점은 지적해주시면 제게 큰 도움이 됩니다. \(미리 감사드립니다.\)
   * E-Mail : oops.jybaek@gmail.com
-
-
-<p align="center">
-  Hello<br>
-  world!!<br>  
-</p>
